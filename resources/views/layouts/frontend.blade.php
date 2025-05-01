@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>{{ $title ?? 'Sawaikar Dry Fruits' }}</title>
+    <title>{{ $title ?? 'Sawaikar&apos;s Cashew Store' }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Meta -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="keywords" content="{{ $title ?? 'Sawaikar Dry Fruits' }}">
+    <meta name="keywords" content="{{ $title ?? 'Sawaikar&apos;s Cashew Store' }}">
     <meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="{{ asset('assets/img/cart.png') }}">
@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
+    
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-custom shadow-sm py-1 fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><b>Sawaikar</b></a>
+        <a class="navbar-brand" href="{{ url('/') }}"><b>Sawaikar's Cashew Store</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">

@@ -19,7 +19,7 @@ class HomeController extends Controller
         $productDb = Product::leftJoin('categories', 'products.category_id', '=', 'categories.id')
                     ->select('categories.category_name', 'products.*');
         $data = [
-            'title'     => 'Sawaiker Dry Fruits',
+            'title'     => 'Sawaikar Cashew Store',
             'categories' => Category::all(),
             'products'  => $productDb->latest()->paginate(8),
         ];
