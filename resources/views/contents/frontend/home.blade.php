@@ -2,9 +2,9 @@
 @section('content')
 <!-- promotion -->
 {{-- <div class="promotion pt-3 pb-3">
-    <div class="container text-center blink_me">
+    <!-- <div class="container text-center blink_me">
         HIJUB GREAT DEALS 12.12, Get Extra Discount Rp120.000,- Min. Purchase Rp200.000,-. Code GS-120
-    </div>
+    </div> -->
 </div> --}}
 <!-- end promotion -->
 <!-- banner -->
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="col-sm-5">
-                        <img src="{{ asset('assets/img/store.png') }}" class="img-fluid w-100">
+                        <img src="{{ asset('assets/img/store.jpeg') }}" class="img-fluid w-100">
                     </div>
                 </div>
             </div>

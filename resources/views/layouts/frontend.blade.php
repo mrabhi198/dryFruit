@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>{{ $title ?? 'Suresh Electronics' }}</title>
+    <title>{{ $title ?? 'Sawaikar Dry Fruits' }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +23,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-custom shadow-sm py-1 fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><b>Gaurav Solutions</b></a>
+        <a class="navbar-brand" href="{{ url('/') }}"><b>Sawaikar</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,7 +94,7 @@
 <!-- Copyright -->
 <div class="copyright">
     <div class="container text-center">
-        Copyright &copy; {{ date('Y') }} Gaurav Security Solutions. All rights reserved.
+        Copyright &copy; {{ date('Y') }} Sawaikar. All rights reserved.
         <br>
     </div>
 </div>
