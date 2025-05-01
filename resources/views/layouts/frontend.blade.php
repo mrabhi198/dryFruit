@@ -10,6 +10,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="{{ asset('assets/img/cart.png') }}">
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="{{ asset('assets/img/cart.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -75,17 +76,21 @@
         <div class="row">
             <div class="col-sm-8">
                 <h4>Need Assistance?</h4>
-                <p class="pt-2">08:00 AM - 05:00 PM (Mon - Fri)</p>
-                <i class="fas fa-envelope-square me-2"></i>gauravsecsolutions@gmail.com<br>
-                <i class="fas fa-map-marker-alt me-2"></i>Pukhta Bazar, front of Truck Union, Jahangirabad<br><br>
+                <i class="bi bi-clock"></i> 09:00 AM - 09:00 PM (Mon - Sun) <br>
+                <i class="bi bi-envelope"></i> sawaikarcashewstore1980@gmail.com <br>
+                <i class="bi bi-geo-alt"></i> Chogm Rd, Porvorim, Aradi Socorro, Goa 403521 <br>
+
             </div>
             <div class="col-sm-4">
                 <h4>Stay Connected</h4>
-                <a href="#" class="text-connected"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="text-connected"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="https://www.instagram.com/sawaikarsgoancashews" class="text-connected"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="text-connected"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="text-connected"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="text-connected"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-connected"><i class="fab fa-linkedin"></i></a> -->
+                <i class="bi bi-envelope"></i> sawaikarcashewstore1980@gmail.com <br>
+                <i class="bi bi-instagram"></i> @sawaikarsgoancashews <br>
+                <i class="bi bi-telephone"></i> +91 950 322 3046 <br>
+
             </div>
         </div>
     </div>

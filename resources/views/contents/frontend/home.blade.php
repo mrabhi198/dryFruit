@@ -16,20 +16,19 @@
     </ol> --}}
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <img src="{{asset('assets/img/banner1.jpg')}}" class="img-fluid w-100" id="gambar_slider" alt="First slide">
-        </div>
-        
-        <div class="carousel-item">
-            <img src="{{asset('assets/img/banner2.jpg')}}" class="img-fluid w-100" id="gambar_slider" alt="Second slide">
+            <img src="{{asset('assets/img/banner2.jpg')}}" class="img-fluid w-100" id="gambar_slider" alt="First slide">
             <div class="carousel-caption d-none d-md-block custom-caption">
                 <h5>Fresh & Premium Quality</h5>
                 <p>Handpicked Dry Fruits Just for You</p>
             </div>
         </div>
 
+        <div class="carousel-item">
+            <img src="{{asset('assets/img/banner1.jpg')}}" class="img-fluid w-100" id="gambar_slider" alt="Second slide">
+        </div>
         
         <div class="carousel-item">
-            <img src="{{asset('assets/img/banner3.jpg')}}" class="img-fluid w-100" id="gambar_slider" alt="Second slide">
+            <img src="{{asset('assets/img/banner3.jpg')}}" class="img-fluid w-100" id="gambar_slider" alt="Third slide">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -56,7 +55,7 @@
                     <div class="col-sm-7">
                         <div class="official-content">
                             <h4><b>Offline Stores</b></h4>
-                            <p>Our store is currently located in Pukhta Bazar, front of Truck Union, Jahangirabad </p>
+                            <p>Our store is currently located in Chogm Rd, Porvorim, Aradi Socorro, Goa </p>
                         </div>
                     </div>
                     <div class="col-sm-5">
