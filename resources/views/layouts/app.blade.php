@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? 'Admin' }}</title>
-    <!-- Styles -->
+
     <link rel="shortcut icon" href="{{ asset('assets/img/cart.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="{{ asset('assets/css/main.css')}}" rel="stylesheet">
@@ -26,7 +25,6 @@
                 <a class="navbar-brand" href="{{ url('/') }}"><b>{{ config('app.name') }}</b></a>
                 @endif
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         @if(!empty(auth()->user()->id))
                             <li class="nav-item">
@@ -39,7 +37,7 @@
                                 <a class="nav-link active" aria-current="page" href="{{ route('admin.category') }}">Category Data</a>
                             </li>
                         @endif
-                        <!-- Authentication Links -->
+                        
                         @guest
                             @if (Route::has('login'))
                                 {{-- <li class="nav-item">
